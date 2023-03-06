@@ -3,7 +3,7 @@ import math
 import random
 import numpy as np
 
-# 소연이 테스트 파일
+
 img1 = cv2.imread('image/test_img1.png', cv2.IMREAD_COLOR)
 img2 = cv2.imread('image/test_img1.png', cv2.IMREAD_COLOR)
 img3 = cv2.imread('image/test_img1.png', cv2.IMREAD_COLOR)
@@ -12,19 +12,6 @@ img5 = cv2.imread('image/test_img1.png', cv2.IMREAD_COLOR)
 img6 = cv2.imread('image/test_img1.png', cv2.IMREAD_COLOR)
 imgcolor = cv2.imread('image/test_newimg2.png', cv2.IMREAD_COLOR)
 
-# 성아 테스트 파일
-# img1 = cv2.imread('images/result2/test_img1.png', cv2.IMREAD_COLOR)
-# img2 = cv2.imread('images/result2/test_img1.png', cv2.IMREAD_COLOR)
-# img3 = cv2.imread('images/result2/test_img1.png', cv2.IMREAD_COLOR)
-# img4 = cv2.imread('images/result2/test_img1.png', cv2.IMREAD_COLOR)
-# img5 = cv2.imread('images/result2/test_img1.png', cv2.IMREAD_COLOR) # 잔주름 위치 지정할때 사용하기
-# imgcolor = cv2.imread('images/result2/test_newimg2.png', cv2.IMREAD_COLOR)
-# img1 = cv2.imread('images/result1/man32_normal_test_cut.png', cv2.IMREAD_COLOR)
-# img2 = cv2.imread('images/result1/man32_normal_test_cut.png', cv2.IMREAD_COLOR)
-# img3 = cv2.imread('images/result1/man32_normal_test_cut.png', cv2.IMREAD_COLOR)
-# img4 = cv2.imread('images/result1/man32_normal_test_cut.png', cv2.IMREAD_COLOR)
-# img5 = cv2.imread('images/result1/man32_normal_test_cut.png', cv2.IMREAD_COLOR) # 잔주름 위치 지정할때 사용하기
-# imgcolor = cv2.imread('images/result1/man32_color_test_cut.png', cv2.IMREAD_COLOR)
 
 h1, w1 = img1.shape[:2] # image1 size
 normal_x1 = [] # image1 normal vector
